@@ -4,6 +4,12 @@ authors = ["Amit Srivastava"]
 version = "0.1.0"
 edition = "2024"
 
+[profile.release]
+strip = true      # This is the most important for size without UPX
+opt-level = "z"
+lto = true
+panic = "abort"
+
 [dependencies]
 warp = "0.3"
 tokio = { version = "1", features = ["rt", "macros", "rt-multi-thread"] }

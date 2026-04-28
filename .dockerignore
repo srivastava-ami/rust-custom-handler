@@ -1,0 +1,7 @@
+# Ignore the heavy local target folder
+rustapp/target/
+target/
+# Ignore git and local secrets
+.git
+.env
+local.settings.json
