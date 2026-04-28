@@ -2,6 +2,15 @@
 
 A complete example of creating an Azure Functions custom handler using Rust with the Warp web framework.
 
+## 🚀 Project Evolution
+
+This repository is designed to grow from a simple POC to an enterprise-grade implementation. Use Git tags to switch between different architectural stages:
+
+| Version | Focus | Command |
+| :--- | :--- | :--- |
+| **v1.0-basic** | Simple Warp handler, host.json config | `git checkout tags/v1.0-basic` |
+| **v2.0-IFOS-framework** | (Coming Soon) project stucture, code policies & implementation best practices | `git checkout main` |
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
